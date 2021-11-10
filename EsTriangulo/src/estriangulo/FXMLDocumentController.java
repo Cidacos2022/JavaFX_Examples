@@ -5,8 +5,6 @@
  */
 package estriangulo;
 
-import static estriangulo.Common.Math.getTraingleTypeMessage;
-import static estriangulo.Common.Math.isNumber;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
@@ -14,7 +12,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
-import static estriangulo.Common.Constants.NO_HAY_DATOS_SUFICIENTES;
 
 /**
  *
@@ -33,31 +30,18 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     public void txtNumbers_OnKeyTyped(KeyEvent event) throws Exception {
-
-        if (!event.getCharacter().matches("[0-9]")) {
-            event.consume();
-        }
+        FXMLDocumentControllerHelper.txtNumbers_OnKeyTyped(event);
     }
 
     @FXML
     public void txtNumbers_AreEmpty(KeyEvent event) throws Exception {
 
-        if (isNumber(textFieldUp.getText())
-                && isNumber(textFieldMiddle.getText())
-                && isNumber(textFieldDown.getText())) {
-
-            txtResult.setText(getTraingleTypeMessage(textFieldUp.getText(),
-                    textFieldMiddle.getText(),
-                    textFieldDown.getText()
-            ));
-        } else {
-            txtResult.setText(NO_HAY_DATOS_SUFICIENTES);
-        }
+        txtResult.setText(FXMLDocumentControllerHelper.txtNumbers_AreEmpty(textFieldUp.getText(),
+                textFieldMiddle.getText(), textFieldDown.getText()));
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
     }
-
 }

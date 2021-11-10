@@ -3,10 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/rafael/Downloads/EsTriangulo/src/estriangulo/Common/Constants.java</file>
-            <file>file:/home/rafael/Downloads/EsTriangulo/src/estriangulo/FXMLDocument.fxml</file>
-            <file>file:/home/rafael/Downloads/EsTriangulo/src/estriangulo/Common/Math.java</file>
-            <file>file:/home/rafael/Downloads/EsTriangulo/src/estriangulo/FXMLDocumentController.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/src/estriangulo/FXMLDocumentControllerHelper.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/src/estriangulo/FXMLDocumentController.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/src/estriangulo/Common/Math.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/src/estriangulo/EsTriangulo.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/src/estriangulo/Common/Constants.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/test/estriangulo/Common/MathTest.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/test/estriangulo/FXMLDocumentControllerTest.java</file>
+            <file>file:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/test/estriangulo/FXMLDocumentControllerHelperTest.java</file>
         </group>
     </open-files>
 </project-private>
