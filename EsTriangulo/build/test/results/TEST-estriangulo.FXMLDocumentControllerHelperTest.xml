@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="rafael-VirtualBox" name="estriangulo.Common.JavaFXThreadingRule" skipped="0" tests="1" time="0.111" timestamp="2021-10-27T12:32:06">
+<testsuite errors="0" failures="0" hostname="alumno-HP-ProDesk-600-G4-MT" name="estriangulo.FXMLDocumentControllerHelperTest" skipped="0" tests="2" time="0.032" timestamp="2021-11-09T20:19:58">
   <properties>
-    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="netbeans.autoupdate.country" value="ES" />
     <property name="javafx.binarycss" value="false" />
-    <property name="javac.test.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
+    <property name="javac.test.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="manifest.custom.codebase" value="*" />
-    <property name="javac.includes" value="estriangulo/Common/JavaFXThreadingRule.java" />
     <property name="ant.core.lib" value="/usr/local/netbeans-8.2/extide/ant/lib/ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="javafx.preloader.enabled" value="false" />
-    <property name="user.dir" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo" />
+    <property name="user.dir" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo" />
     <property name="java.vm.version" value="25.111-b14" />
     <property name="libs.MySQLDriver.classpath" value="/usr/local/netbeans-8.2/ide/modules/ext/mysql-connector-java-5.1.23-bin.jar" />
     <property name="libs.eclipselinkmodelgen.src" value="" />
@@ -28,28 +27,27 @@
     <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
     <property name="netbeans.autoupdate.variant" value="" />
     <property name="have.tests" value="true" />
-    <property name="ant.file.EsTriangulo" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build.xml" />
+    <property name="ant.file.EsTriangulo" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build.xml" />
     <property name="addExports:java.desktop/com.sun.java.swing.plaf.gtk" value="ALL-UNNAMED" />
     <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="libs.hamcrest.classpath" value="/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="libs.javac-api.javadoc" value="" />
+    <property name="file.reference.testfx-junit-4.0.15-alpha.jar" value="/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar" />
     <property name="os.name" value="Linux" />
-    <property name="test.class" value="estriangulo.Common.JavaFXThreadingRule" />
     <property name="libs.beans-binding.classpath" value="/usr/local/netbeans-8.2/java/modules/ext/beansbinding-1.2.1.jar" />
     <property name="ap.proc.none.internal" value="" />
     <property name="libs.JWSAntTasks.maven-pom" value="" />
     <property name="libs.testng.src" value="" />
     <property name="javafx.preloader.project.path" value="" />
-    <property name="file.reference.mockito-core-4.0.0.jar" value="/home/rafael/Downloads/mockito-core-4.0.0.jar" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="javafx.preloader.type" value="none" />
     <property name="libs.jaxb.maven-pom" value="" />
     <property name="os.arch" value="amd64" />
     <property name="libs.eclipselink.src" value="" />
-    <property name="user.name" value="rafael" />
+    <property name="user.name" value="rjalamanac" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner estriangulo.Common.JavaFXThreadingRule skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/test/results/TEST-estriangulo.Common.JavaFXThreadingRule.xml crashfile=/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/junitvmwatcher3307323115723638211.properties propsfile=/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/junit4223669617971070322.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner estriangulo.FXMLDocumentControllerHelperTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build/test/results/TEST-estriangulo.FXMLDocumentControllerHelperTest.xml crashfile=/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build/junitvmwatcher9201030160023214233.properties propsfile=/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build/junit2165818837016512172.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -59,19 +57,18 @@
     <property name="libs.jaxws21.javadoc" value="/usr/local/netbeans-8.2/java/docs/jaxws-api-doc.zip" />
     <property name="javafx.run.width" value="800" />
     <property name="includes" value="**" />
-    <property name="user.country" value="US" />
+    <property name="user.country" value="ES" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="addExports:java.desktop/sun.awt" value="ALL-UNNAMED" />
     <property name="javadoc.encoding" value="UTF-8" />
-    <property name="javac.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar" />
+    <property name="javac.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar" />
     <property name="libs.spring-framework400.classpath" value="/usr/local/netbeans-8.2/ide/modules/org-apache-commons-logging.jar:/usr/local/netbeans-8.2/java/modules/ext/cglib-2.2.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-aop-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-aspects-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-beans-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-build-src-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-context-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-context-support-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-core-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-expression-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-framework-bom-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-instrument-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-instrument-tomcat-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-jdbc-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-jms-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-messaging-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-orm-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-oxm-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-test-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-tx-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-web-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-webmvc-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-webmvc-portlet-4.0.1.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-4/spring-websocket-4.0.1.RELEASE.jar" />
     <property name="debug-transport" value="dt_socket" />
     <property name="netbeans.home" value="/usr/local/netbeans-8.2/platform" />
     <property name="build.compiler.emacs" value="true" />
     <property name="javafx.deploy.includeDT" value="true" />
     <property name="java.endorsed.dirs" value="/usr/local/jdk1.8.0_111/jre/lib/endorsed" />
-    <property name="test.includes" value="estriangulo/Common/JavaFXThreadingRule.java" />
-    <property name="netbeans.dynamic.classpath" value="/usr/local/netbeans-8.2/platform/core/org-openide-filesystems-compat8.jar:/usr/local/netbeans-8.2/platform/core/core.jar:/usr/local/netbeans-8.2/platform/core/asm-all-5.0.1.jar:/usr/local/netbeans-8.2/platform/core/core-base.jar:/usr/local/netbeans-8.2/platform/core/org-netbeans-libs-asm.jar:/usr/local/netbeans-8.2/platform/core/org-openide-filesystems.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/core_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/core_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/core_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/core_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_pt_BR.jar:/usr/local/netbeans-8.2/nb/core/org-netbeans-upgrader.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_pt_BR.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_ru.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ru.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ja.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_ja.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_zh_CN.jar" />
+    <property name="netbeans.dynamic.classpath" value="/usr/local/netbeans-8.2/platform/core/asm-all-5.0.1.jar:/usr/local/netbeans-8.2/platform/core/org-openide-filesystems.jar:/usr/local/netbeans-8.2/platform/core/org-netbeans-libs-asm.jar:/usr/local/netbeans-8.2/platform/core/org-openide-filesystems-compat8.jar:/usr/local/netbeans-8.2/platform/core/core-base.jar:/usr/local/netbeans-8.2/platform/core/core.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/core_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/core_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/core_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_ja.jar:/usr/local/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/core-base_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_zh_CN.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ru.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_pt_BR.jar:/usr/local/netbeans-8.2/platform/core/locale/core_ru.jar:/usr/local/netbeans-8.2/nb/core/org-netbeans-upgrader.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_zh_CN.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_ja.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_ru.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ru.jar:/usr/local/netbeans-8.2/nb/core/locale/core_nb_pt_BR.jar:/usr/local/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ja.jar" />
     <property name="jnlp.enabled" value="false" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="libs.hibernate4-support.src" value="" />
@@ -79,7 +76,7 @@
     <property name="javafx.preloader.class" value="" />
     <property name="libs.jaxws21.src" value="" />
     <property name="application.title" value="EsTriangulo" />
-    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="netbeans.autoupdate.language" value="es" />
     <property name="ant.file.type.EsTriangulo-impl" value="file" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.font.fontmanager" value="sun.awt.X11FontManager" />
@@ -87,10 +84,9 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
-    <property name="javac.includesfile.binary" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/null1956374199" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
-    <property name="javac.test.processorpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
+    <property name="javac.test.processorpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="netbeans.buildnumber" value="201609300101" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
@@ -99,7 +95,6 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="/usr/local/netbeans-8.2/ide/docs/jaxb-api-doc.zip" />
     <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
-    <property name="javac.includes.binary" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/test/classes/estriangulo/Common/JavaFXThreadingRule.class" />
     <property name="ant.home" value="/usr/local/netbeans-8.2/extide/ant" />
     <property name="libs.junit_4.src" value="/usr/local/netbeans-8.2/platform/docs/junit-4.12-sources.jar" />
     <property name="javafx.run.height" value="600" />
@@ -112,7 +107,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo" />
+    <property name="basedir" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="path.separator" value=":" />
@@ -122,7 +117,7 @@
     <property name="compile.on.save" value="true" />
     <property name="apple.awt.graphics.UseQuartz" value="true" />
     <property name="addExports:java.desktop/sun.awt.im" value="ALL-UNNAMED" />
-    <property name="user.language" value="en" />
+    <property name="user.language" value="es" />
     <property name="testng.mode" value="testng" />
     <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
     <property name="libs.eclipselink.maven-pom" value="" />
@@ -130,20 +125,19 @@
     <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="manifest.available" value="true" />
     <property name="libs.spring-framework300.maven-pom" value="" />
-    <property name="run.test.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
-    <property name="ant.project.invoked-targets" value="debug-test" />
+    <property name="run.test.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test" />
     <property name="test.binaryexcludes" value="" />
     <property name="libs.swing-layout.javadoc" value="/usr/local/netbeans-8.2/platform/docs/swing-layout-1.0.4-doc.zip" />
     <property name="sun.java2d.dpiaware" value="true" />
     <property name="libs.hibernate4-persistence.maven-pom" value="" />
     <property name="addExports:java.base/jdk.internal.jrtfs" value="ALL-UNNAMED" />
-    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|rafael-VirtualBox" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|alumno-HP-ProDesk-600-G4-MT" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
-    <property name="jpda.address" value="localhost:40183" />
     <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
     <property name="libs.eclipselink.javadoc" value="/usr/local/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
-    <property name="user.properties.file" value="/home/rafael/.netbeans/8.2/build.properties" />
+    <property name="user.properties.file" value="/home/rjalamanac/.netbeans/8.2/build.properties" />
     <property name="runtime.encoding" value="UTF-8" />
     <property name="javafx.rebase.libs" value="false" />
     <property name="libs.javac-api.maven-pom" value="" />
@@ -152,7 +146,7 @@
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="libs.JWSAntTasks.classpath" value="/usr/local/netbeans-8.2/java/ant/extra/org-netbeans-modules-javawebstart-anttasks.jar" />
     <property name="libs.spring-framework300.src" value="" />
-    <property name="empty.dir" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/empty" />
+    <property name="empty.dir" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build/empty" />
     <property name="javafx.deploy.backgroundupdate" value="false" />
     <property name="javafx.disable.concurrent.runs" value="false" />
     <property name="version-output" value="java version &quot;1.8" />
@@ -162,35 +156,37 @@
     <property name="javadoc.preview" value="true" />
     <property name="libs.jpa20-persistence.javadoc" value="/usr/local/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="java.home" value="/usr/local/jdk1.8.0_111/jre" />
-    <property name="debug.test.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="debug.test.classpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="ant.project.default-target" value="default" />
     <property name="annotation.processing.run.all.processors" value="true" />
-    <property name="ant.file.EsTriangulo-impl" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/nbproject/build-impl.xml" />
+    <property name="ant.file.EsTriangulo-impl" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/nbproject/build-impl.xml" />
     <property name="jar.archive.disabled" value="true" />
     <property name="libs.PostgreSQLDriver.javadoc" value="" />
     <property name="javafx.main.class" value="estriangulo.EsTriangulo" />
     <property name="libs.MySQLDriver.maven-pom" value="" />
     <property name="libs.hibernate4-persistence.javadoc" value="/usr/local/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="javafx.application.implementation.version" value="1.0" />
-    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|rafael-VirtualBox" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|alumno-HP-ProDesk-600-G4-MT" />
     <property name="libs.junit_4.javadoc" value="/usr/local/netbeans-8.2/platform/docs/junit-4.12-javadoc.jar" />
-    <property name="run.classpath" value="dist/EsTriangulo.jar:/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar:build/classes" />
+    <property name="file.reference.testfx-core-4.0.16-alpha.jar" value="/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar" />
+    <property name="run.classpath" value="dist/EsTriangulo.jar:/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes" />
     <property name="endorsed.javafx.ant.classpath" value="." />
     <property name="jna.boot.library.name" value="jnidispatch-422" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="libs.jpa2-persistence.maven-pom" value="" />
     <property name="annotation.processing.enabled.in.editor" value="false" />
     <property name="libs.hibernate4-support.classpath" value="/usr/local/netbeans-8.2/java/modules/ext/hibernate4/antlr-2.7.7.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/c3p0-0.9.2.1.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-c3p0-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/mchange-commons-java-0.2.3.4.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/dom4j-1.6.1.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/ehcache-core-2.4.3.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-ehcache-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-core-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/jboss-logging-3.1.3.GA.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-commons-annotations-4.0.4.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-entitymanager-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/javassist-3.18.1-GA.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/slf4j-api-1.6.1.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/slf4j-simple-1.6.1.jar" />
+    <property name="file.reference.assertj-core-3.21.0.jar" value="/home/rjalamanac/Descargas/assertj-core-3.21.0.jar" />
     <property name="nb.native.filechooser" value="false" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="javac.deprecation" value="false" />
     <property name="javadoc.use" value="true" />
     <property name="sun.java2d.noddraw" value="true" />
-    <property name="javac.processorpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar" />
+    <property name="javac.processorpath" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build.xml" />
+    <property name="ant.file" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="/usr/local/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="libs.beans-binding.src" value="" />
@@ -199,7 +195,7 @@
     <property name="org.openide.major.version" value="IDE/1" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="javafx.preloader.jar.filename" value="" />
-    <property name="netbeans.user" value="/home/rafael/.netbeans/8.2" />
+    <property name="netbeans.user" value="/home/rjalamanac/.netbeans/8.2" />
     <property name="javadoc.additionalparam" value="" />
     <property name="java.io.tmpdir" value="/tmp" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
@@ -210,7 +206,7 @@
     <property name="sun.boot.library.path" value="/usr/local/jdk1.8.0_111/jre/lib/amd64" />
     <property name="have.sources" value="true" />
     <property name="libs.hamcrest.javadoc" value="" />
-    <property name="debug.classpath" value="dist/EsTriangulo.jar:/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar:build/classes" />
+    <property name="debug.classpath" value="dist/EsTriangulo.jar:/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar:build/classes" />
     <property name="javac.external.vm" value="false" />
     <property name="javadoc.private" value="false" />
     <property name="test.src.dir" value="test" />
@@ -221,14 +217,14 @@
     <property name="libs.spring-framework400.maven-pom" value="" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.name" value="EsTriangulo" />
-    <property name="netbeans.hash.code" value="unique=NBJDK_EXTIDE_JAVA_JDK065ce865a-bd4b-4884-8c83-3716ced06df7_69b81b43-1b7b-4159-ae50-37f9c5dad61e" />
-    <property name="netbeans.default_userdir_root" value="/home/rafael/.netbeans" />
+    <property name="netbeans.hash.code" value="unique=NBJDK_EXTIDE_JAVA_JDK035ecc8ff-8fcc-47a4-b5a4-71682ada453b_d005b580-5978-4765-8fa9-d5710c01613e" />
+    <property name="netbeans.default_userdir_root" value="/home/rjalamanac/.netbeans" />
     <property name="sun.cpu.isalist" value="" />
     <property name="libs.spring-framework400.javadoc" value="" />
     <property name="libs.CopyLibs.javadoc" value="" />
     <property name="org.openide.specification.version" value="6.2" />
     <property name="javafx.classpath.extension" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar" />
-    <property name="user.home" value="/home/rafael" />
+    <property name="user.home" value="/home/rjalamanac" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="debug-args-line" value="-Xdebug" />
     <property name="libs.JWSAntTasks.src" value="" />
@@ -250,14 +246,15 @@
     <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
     <property name="ant.file.type.jfx-impl" value="file" />
     <property name="libs.eclipselinkmodelgen.javadoc" value="" />
-    <property name="ant.file.jfx-impl" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/nbproject/jfx-impl.xml" />
+    <property name="ant.file.jfx-impl" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/nbproject/jfx-impl.xml" />
     <property name="netbeans.home+have.tests" value="true" />
     <property name="annotation.processing.processor.options" value="" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="libs.jaxb.src" value="" />
-    <property name="work.dir" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo" />
+    <property name="work.dir" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo" />
     <property name="compile.on.save.unsupported.javafx" value="true" />
     <property name="libs.jaxb.classpath" value="/usr/local/netbeans-8.2/ide/modules/ext/jaxb/jaxb-impl.jar:/usr/local/netbeans-8.2/ide/modules/ext/jaxb/jaxb-xjc.jar:/usr/local/netbeans-8.2/ide/modules/ext/jaxb/jaxb1-impl.jar:/usr/local/netbeans-8.2/ide/modules/ext/jaxb/activation.jar:/usr/local/netbeans-8.2/ide/modules/ext/jaxb/api/jaxb-api.jar:/usr/local/netbeans-8.2/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
+    <property name="file.reference.hamcrest-core-2.2.jar" value="/home/rjalamanac/Descargas/hamcrest-core-2.2.jar" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="libs.swing-layout.classpath" value="/usr/local/netbeans-8.2/platform/modules/ext/swing-layout-1.0.4.jar" />
@@ -273,7 +270,7 @@
     <property name="addExports:java.management/sun.management" value="ALL-UNNAMED" />
     <property name="sun.boot.class.path" value="/usr/local/jdk1.8.0_111/jre/lib/resources.jar:/usr/local/jdk1.8.0_111/jre/lib/rt.jar:/usr/local/jdk1.8.0_111/jre/lib/sunrsasign.jar:/usr/local/jdk1.8.0_111/jre/lib/jsse.jar:/usr/local/jdk1.8.0_111/jre/lib/jce.jar:/usr/local/jdk1.8.0_111/jre/lib/charsets.jar:/usr/local/jdk1.8.0_111/jre/lib/jfr.jar:/usr/local/jdk1.8.0_111/jre/classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/built-jar.properties" />
+    <property name="built-jar.properties" value="/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build/built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="annotation.processing.enabled" value="true" />
@@ -287,11 +284,11 @@
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
     <property name="default.javac.source" value="1.8" />
     <property name="debug-transport-by-os" value="dt_socket" />
-    <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="libs.MySQLDriver.src" value="" />
-    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="java.runtime.version" value="1.8.0_111-b14" />
-    <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib/x86_64-linux-gnu/libfakeroot" />
     <property name="default.javac.target" value="1.8" />
     <property name="libs.junit_4.classpath" value="/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar" />
     <property name="user.timezone" value="" />
@@ -304,13 +301,13 @@
     <property name="excludes" value="" />
     <property name="libs.jpa2-persistence.javadoc" value="/usr/local/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rafael/Downloads/mockito-core-4.0.0.jar:/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/rafael/Desktop/JavaFX_Examples/EsTriangulo/build/test/classes:/usr/local/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/usr/local/netbeans-8.2/extide/ant/lib/ant.jar:/usr/local/netbeans-8.2/extide/ant/lib/ant-junit.jar:/usr/local/netbeans-8.2/extide/ant/lib/ant-junit4.jar" />
+    <property name="java.class.path" value="/usr/local/jdk1.8.0_111/jre/lib/javaws.jar:/usr/local/jdk1.8.0_111/jre/lib/deploy.jar:/usr/local/jdk1.8.0_111/jre/lib/plugin.jar:/home/rjalamanac/Descargas/assertj-core-3.21.0.jar:/home/rjalamanac/Descargas/hamcrest-core-2.2.jar:/home/rjalamanac/Descargas/testfx-core-4.0.16-alpha.jar:/home/rjalamanac/Descargas/testfx-junit-4.0.15-alpha.jar:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build/classes:/usr/local/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/usr/local/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/build/test/classes:/usr/local/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/usr/local/netbeans-8.2/extide/ant/lib/ant.jar:/usr/local/netbeans-8.2/extide/ant/lib/ant-junit.jar:/usr/local/netbeans-8.2/extide/ant/lib/ant-junit4.jar:/home/rjalamanac/.netbeans/8.2/modules/ext/jacocoagent.jar" />
     <property name="ant.file.type.EsTriangulo" value="file" />
     <property name="addExports:java.desktop/java.awt.peer" value="ALL-UNNAMED" />
     <property name="addExports:java.desktop/com.sun.beans.editors" value="ALL-UNNAMED" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="/usr/local/netbeans-8.2/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar" />
-    <property name="os.version" value="5.11.0-37-generic" />
+    <property name="os.version" value="5.11.0-36-generic" />
     <property name="application.args" value="" />
     <property name="manifest.custom.permissions" value="" />
     <property name="main.class.available" value="true" />
@@ -320,15 +317,14 @@
     <property name="libs.hibernate4-support.maven-pom" value="" />
     <property name="javafx.deploy.allowoffline" value="true" />
     <property name="libs.JAXB-ENDORSED.classpath" value="/usr/local/netbeans-8.2/ide/modules/ext/jaxb/api/jaxb-api.jar" />
-    <property name="nb.internal.action.name" value="debug.single" />
     <property name="libs.eclipselink.classpath" value="/usr/local/netbeans-8.2/java/modules/ext/eclipselink/eclipselink.jar:/usr/local/netbeans-8.2/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/usr/local/netbeans-8.2/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
     <property name="libs.beans-binding.javadoc" value="/usr/local/netbeans-8.2/java/docs/beansbinding-1.2.1-doc.zip" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="libs.CopyLibs.classpath" value="/usr/local/netbeans-8.2/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="libs.spring-framework300.classpath" value="/usr/local/netbeans-8.2/ide/modules/org-apache-commons-logging.jar:/usr/local/netbeans-8.2/java/modules/ext/cglib-2.2.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-aop-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-aspects-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-beans-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-build-src-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-context-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-context-support-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-core-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-expression-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-framework-bom-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-instrument-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-instrument-tomcat-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-jdbc-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-jms-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-orm-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-oxm-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-struts-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-test-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-tx-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-web-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-webmvc-3.2.7.RELEASE.jar:/usr/local/netbeans-8.2/java/modules/ext/spring-3.0/spring-webmvc-portlet-3.2.7.RELEASE.jar" />
     <property name="libs.hamcrest.src" value="" />
-    <property name="run.jvmargs" value="" />
+    <property name="run.jvmargs" value="  -javaagent:&quot;/home/rjalamanac/.netbeans/8.2/modules/ext/jacocoagent.jar&quot;=includes=estriangulo.*:estriangulo.Common.*,destfile=&quot;/home/rjalamanac/Escritorio/JavaFX_Examples/EsTriangulo/jacoco.exec-12740581548279&quot;" />
     <property name="libs.hibernate4-persistence.classpath" value="/usr/local/netbeans-8.2/java/modules/ext/hibernate4/antlr-2.7.7.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/c3p0-0.9.2.1.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-c3p0-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/mchange-commons-java-0.2.3.4.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/dom4j-1.6.1.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/ehcache-core-2.4.3.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-ehcache-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-core-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/jboss-logging-3.1.3.GA.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-commons-annotations-4.0.4.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-entitymanager-4.3.1.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/javassist-3.18.1-GA.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/slf4j-api-1.6.1.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/slf4j-simple-1.6.1.jar:/usr/local/netbeans-8.2/java/modules/ext/hibernate4/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="libs.testng.javadoc" value="/usr/local/netbeans-8.2/platform/docs/testng-6.8.1-javadoc.zip" />
@@ -346,11 +342,8 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="estriangulo.Common.JavaFXThreadingRule" name="initializationError" time="0.013">
-    <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-</error>
-  </testcase>
+  <testcase classname="estriangulo.FXMLDocumentControllerHelperTest" name="txtNumbers_AreEmpty" time="0.004" />
+  <testcase classname="estriangulo.FXMLDocumentControllerHelperTest" name="txtNumbers_OnKeyTyped" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

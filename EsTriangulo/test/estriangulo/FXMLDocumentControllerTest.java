@@ -6,66 +6,66 @@
 package estriangulo;
 
 import estriangulo.Common.Constants;
-import estriangulo.Common.JavaFXThreadingRule;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.stage.Stage;
 import static org.junit.Assert.assertEquals;
-import org.junit.Before;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import static org.mockito.Mockito.when;
-import org.mockito.MockitoAnnotations;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.testfx.framework.junit.ApplicationTest;
 
 /**
  *
- * @author rafael
+ * @author rjalamanac
  */
-@RunWith(MockitoJUnitRunner.class)
-public class FXMLDocumentControllerTest {
+public class FXMLDocumentControllerTest extends ApplicationTest {
 
-    @Rule
-    public JavaFXThreadingRule javafxRule = new JavaFXThreadingRule();
+    @Override
+    public void start(Stage stage) {
+        try {
+            Parent root = FXMLLoader.load(EsTriangulo.class.getResource("FXMLDocument.fxml"));
 
-    @Mock
-    private Label txtResult;
-    @Mock
-    private TextField textFieldUp;
-    @Mock
-    private TextField textFieldMiddle;
-    @Mock
-    private TextField textFieldDown;
+            Scene scene = new Scene(root);
 
-    @InjectMocks
-    private FXMLDocumentController controller;
-
-    @Before
-    public void setup() {
-        MockitoAnnotations.initMocks(this); //without this you will get NPE
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException ex) {
+            Logger.getLogger(FXMLDocumentControllerTest.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
-    public FXMLDocumentControllerTest() {
-
-    }
-
-    /**
-     * Test of txtNumbers_OnKeyTyped method, of class FXMLDocumentController.
-     */
     @Test
-    public void testTxtNumbers_OnKeyTyped() throws Exception {
-        txtResult = Mockito.mock(Label.class);
-        textFieldUp = Mockito.mock(TextField.class);
-        textFieldMiddle = Mockito.mock(TextField.class);
-        textFieldDown = Mockito.mock(TextField.class);
-        when(textFieldUp.getText()).thenReturn("1");
-        when(textFieldMiddle.getText()).thenReturn("1");
-        when(textFieldDown.getText()).thenReturn("1");
-        controller.txtNumbers_AreEmpty(null);
-        assertEquals(txtResult.getText(), Constants.TRIANGULO_EQUILATERO);
+    public void integrationTest_Equilatero_OK() throws InterruptedException {
+        clickOn();
+        Label label = lookup("#txtResult").query();
+        assertEquals(label.getText(), Constants.TRIANGULO_EQUILATERO);
+    }
+
+    private void clickOn(String valueUp, String valueMiddle, String valueDown) {
+        clickOn("#textFieldUp").write(valueUp).press(KeyCode.ENTER);
+        clickOn("#textFieldMiddle").write(valueMiddle).press(KeyCode.ENTER);
+        clickOn("#textFieldDown").write(valueDown).press(KeyCode.ENTER);
+    }
+
+    @Test
+    public void integrationTest_LetterValues_KO() throws InterruptedException {
+        clickOn();
+        Label label = lookup("#txtResult").query();
+        assertEquals(label.getText(), Constants.TRIANGULO_EQUILATERO);
+    }
+
+    @Test
+    public void integrationTest__Isosceles_OK() throws InterruptedException {
+        clickOn("#textFieldUp").write("2").press(KeyCode.ENTER);
+        clickOn("#textFieldMiddle").write("2").press(KeyCode.ENTER);
+        clickOn("#textFieldDown").write("3").press(KeyCode.ENTER);
+        Label label = lookup("#txtResult").query();
+        assertEquals(label.getText(), Constants.TRIANGULO_ISOSCELES);
     }
 
 }
